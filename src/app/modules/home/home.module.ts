@@ -9,8 +9,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { InstructorescontainerComponent } from './components/instructorescontainer/instructorescontainer.component';
 
 
+
 @NgModule({
-  declarations: [HomeComponent, CursodestacadocontainerComponent, HeaderComponent, InstructorescontainerComponent],
+  declarations: [HomeComponent, CursodestacadocontainerComponent, HeaderComponent, InstructorescontainerComponent, InstructorComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

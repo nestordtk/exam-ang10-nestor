@@ -7,13 +7,16 @@ import { LoyoutComponent } from './loyout/loyout.component';
 import { HeaderComponent } from './loyout/header/header.component';
 import { FooterComponent } from './loyout/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { AutorizacionComponent } from './modules/autorizacion/autorizacion/autorizacion.component';
  
 @NgModule({
   declarations: [
     AppComponent,
     LoyoutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    InstructorComponent,
+    AutorizacionComponent
   ],
   imports: [
     BrowserModule,
