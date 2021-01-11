@@ -8,20 +8,21 @@ import { HeaderComponent } from './loyout/header/header.component';
 import { FooterComponent } from './loyout/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { AutorizacionComponent } from './modules/autorizacion/autorizacion/autorizacion.component';
- 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoyoutComponent,
     HeaderComponent,
     FooterComponent,
-    InstructorComponent,
     AutorizacionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

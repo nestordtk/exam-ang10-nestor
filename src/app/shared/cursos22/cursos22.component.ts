@@ -18,7 +18,7 @@ export class Cursos22Component implements OnInit {
     this.curso22 = {
       id: 1,
       name: 'Angular 10',
-      feature = true,
+      feature: true,
       image: 'http://examen-nh.jcramireztello.com/media/books/angular10.png',
       language: 'es',
       price: 5000.0,
